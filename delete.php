@@ -14,8 +14,4 @@ echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
 mysqli_close($conn);
 ?>
-<html>
-    <body>
-    <a href="https://kantawit.azurewebsites.net/show.php">back to show</a>
-    </body>
-</html>
+
