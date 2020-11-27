@@ -15,11 +15,11 @@ $res = mysqli_query($conn, 'SELECT * FROM test');
 ?>
 <table width="600" border="1">
   <tr>
-    <th width="100"> <div align="center">ชื่อสินค้า </div></th>
-    <th width="350"> <div align="center">ราคาต่อหน่วย </div></th>
-    <th width="150"> <div align="center">จำนวน </div></th>
-    <th width="150"> <div align="center">ราคาทั้งหมด </div></th>
-    <th width="150"> <div align="center">การจัดการ </div></th>
+    <th width="100"> <div align="center">product </div></th>
+    <th width="350"> <div align="center">price </div></th>
+    <th width="150"> <div align="center">amount </div></th>
+    <th width="150"> <div align="center">total </div></th>
+    <th width="150"> <div align="center">delete </div></th>
 
 <?php
 while($Result = mysqli_fetch_array($res))
