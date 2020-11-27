@@ -2,8 +2,15 @@
 <html>
 <head>
 <title>ITF Lab</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello BlackPink</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color:#FCA2A2;">
+    <p></p>
+    <div class="container-fluid">
 <?php
 $conn = mysqli_init();
 mysqli_real_connect($conn, 'kantawit11.mysql.database.azure.com', 'kantawit123@kantawit11', 'OGUlot28', 'ITFlab', 3306);
@@ -41,6 +48,7 @@ Delete</a>'?></td>
 <?php
 mysqli_close($conn);
 ?>
+    </div>
 <p>
 <a href="https://kantawit.azurewebsites.net/form.html">Add</a>
 </body>
