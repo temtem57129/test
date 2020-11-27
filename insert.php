@@ -11,10 +11,9 @@ if (mysqli_connect_errno($conn))
 $product = $_POST['product'];
 $price = $_POST['price'];
 $amount = $_POST['amount'];
-$total = $_POST['price*amont'];
 
 
-$sql = "INSERT INTO test (product , price , amount, total) VALUES ('$product', '$price', '$amount', '$total' )";
+$sql = "INSERT INTO test (product , price , amount, total) VALUES ('$product', '$price', '$amount', '$price*' )";
 
 
 if (mysqli_query($conn, $sql)) {
