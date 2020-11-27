@@ -49,7 +49,7 @@ Delete</a>'?></td>
 mysqli_close($conn);
 ?>
 <p>
-<a href="https://kantawit.azurewebsites.net/form.html">Add</a>
+<a href="https://kantawit.azurewebsites.net/form.html">        Add</a>
     </div>
 </body>
 </html>
