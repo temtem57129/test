@@ -1,3 +1,4 @@
+<?php
 $conn = mysqli_init();
 mysqli_real_connect($conn, 'kantawit11.mysql.database.azure.com', 'kantawit123@kantawit11', 'OGUlot28', 'ITFlab', 3306);
 if (mysqli_connect_errno($conn))
@@ -13,3 +14,8 @@ echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
 mysqli_close($conn);
 ?>
+<html>
+    <body>
+    <a href="https://kantawit.azurewebsites.net/show.php">back to show</a>
+    </body>
+</html>
