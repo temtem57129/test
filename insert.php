@@ -13,7 +13,7 @@ $price = $_POST['price'];
 $amount = $_POST['amount'];
 
 
-$sql = "INSERT INTO test (product , price , amount, total) VALUES ('$product', '$price', '$amount', '$price*' )";
+$sql = "INSERT INTO test (product , price , amount, total) VALUES ('$product', '$price', '$amount', '$price*$amount' )";
 
 
 if (mysqli_query($conn, $sql)) {
