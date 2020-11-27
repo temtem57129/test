@@ -48,8 +48,8 @@ Delete</a>'?></td>
 <?php
 mysqli_close($conn);
 ?>
-    </div>
 <p>
 <a href="https://kantawit.azurewebsites.net/form.html">Add</a>
+    </div>
 </body>
 </html>
