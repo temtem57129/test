@@ -21,6 +21,11 @@ if (mysqli_query($conn, $sql)) {
   } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
   }
+<html>
+<p>
+<a href="https://kantawit.azurewebsites.net/">Back to Show</a>
+</body>
+</html>
 
 mysqli_close($conn);
 ?>
