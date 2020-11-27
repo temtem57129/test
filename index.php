@@ -16,7 +16,7 @@ $res = mysqli_query($conn, 'SELECT * FROM test');
 <table width="600" border="1">
   <tr>
     <th width="100"> <div align="center">product </div></th>
-    <th width="350"> <div align="center">price </div></th>
+    <th width="150"> <div align="center">price </div></th>
     <th width="150"> <div align="center">amount </div></th>
     <th width="150"> <div align="center">total </div></th>
     <th width="150"> <div align="center">delete </div></th>
